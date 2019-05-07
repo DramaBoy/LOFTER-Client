@@ -1,0 +1,43 @@
+body,
+button,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul,
+a{
+    margin:0;
+    padding:0;
+}
+
+/* 公共样式 */
+body {
+    background-color: #ededef;
+}
+body, 
+textarea, 
+select, 
+input, 
+button {
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}

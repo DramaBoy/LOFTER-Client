@@ -1,0 +1,217 @@
+/* 页面表头 */
+.header {
+    height: 82px;
+    background-color: #24292c;
+}
+
+/* 页面左侧logo --lofter部分 */
+.h-left{
+    float: left;
+}
+.header .h-logo {
+    display: inline-block;
+    padding: 0px 0px 0px 210px;
+    margin-right: 50px
+}
+.header .h-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 导航栏 --首页 浏览等导航栏 */
+.header ul{
+    display: inline-block;
+    position: relative;
+}
+.header ul li{
+    height: 82px;
+    text-align: center;
+    margin: 0px 12px;
+}
+.header ul li a{
+    margin: 31px 0px;
+    height: 20px;
+    color:#999;
+    display: inline-block;
+}
+.header .nav-selected {
+    color:#fff;
+}
+.header ul li a:hover {
+    color:#fff;
+}
+
+/* 三角形 */
+.triangle {
+    width:0;
+    height:0;
+    position: absolute;
+    left:530px;
+    top:66px;
+    overflow:hidden;
+    border-width:8px;
+    border-style:solid;
+    border-color:transparent transparent #fff transparent;
+}
+
+/* 页面右侧导航 */
+.h-search {
+    display: inline-block;
+    position: relative;
+}
+.box {
+    width: 228px;
+    height: 32px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: 0px -41px;
+    position: absolute;
+    left: 50px;
+    top: -16px;
+}
+.sear-ico {
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: 0px -82px;
+    position: absolute;
+    left: 60px;
+    top: -9px;
+}
+.sear-input {
+    border: none;
+    width: 150px;
+    height: 20px;
+    outline: none;
+    position: absolute;
+    left: 88px;
+    top: -12px;
+    background-color: transparent;
+    z-index: 99;
+    color: #fff;
+}
+
+.sear-new {
+    width: 45px;
+    height: 20px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -205px -81px;
+    position: absolute;
+    left: 222px;
+    top: -11px;
+}
+
+/* 更多版块 */
+.more-box {
+    width: 224px;
+    position: absolute;
+    /* display: none; */
+    top: 68px;
+    left:740px;
+    background-color:#191919;
+    z-index: 99999;
+    display: none;
+}
+
+.triangle-more {
+    width: 0px;
+    height:0px;
+    position: absolute;
+    left:88px;
+    top:-16px;
+    overflow:hidden;
+    border-width:8px;
+    border-style:solid;
+    border-color:transparent transparent #191919 transparent;
+}
+
+.more-box ul li{
+    width: 224px;
+    display: block;
+    border-bottom: solid 1px #0C0C0C;
+}
+.more-box ul li a{
+    display: block;
+    height: 40px;
+    width: 147px;
+    font-size: 12px;
+    color: #BCBCBC;
+    padding: 0 40px;
+    line-height: 40px;
+    text-align: left;
+}
+.more-box ul li a:hover{
+    color: #fff;
+}
+.more-box ul li:hover{
+    background-color: rgb(51,51,51);
+}
+/* 小图标 */
+.icon-1 {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -1px -313px;
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+.icon-2 {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -1px -724px;
+    position: absolute;
+    left: 14px;
+    top: 56px;
+}
+
+.icon-3 {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -1px -352px;
+    position: absolute;
+    left: 14px;
+    top: 96px;
+}
+
+.icon-4 {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -1px -1029px;
+    position: absolute;
+    left: 14px;
+    top: 136px;
+}
+
+.icon-5 {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -1px -821px;
+    position: absolute;
+    left: 14px;
+    top: 176px;
+}
+
+.icon-6 {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -1px -394px;
+    position: absolute;
+    left: 14px;
+    top: 218px;
+}
+
+.icon-7 {
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/jinglingtu3.png);
+    background-position: -1px -431px;
+    position: absolute;
+    left: 14px;
+    top: 258px;
+}

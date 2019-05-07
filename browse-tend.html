@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>趋势 | LOFTER（乐乎） - 让兴趣，更有趣</title>
+    <meta name="keywords" content="图片社交、照片社交、摄影作品、手机摄影、同人文、平面设计、cosplay、达人、女神图片、时尚搭配、二次元" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=emulateie7" />
+    <meta name="author" content="netease" />
+    <meta name="version" content="1.0" />
+    <meta name="keywords" content="图片社交、照片社交、摄影作品、手机摄影、同人文、平面设计、cosplay、达人、女神图片、时尚搭配、二次元" />
+    <meta name="description"
+        content="国内最优质的图片社交软件，你可以在LOFTER随意晒图，分享生活，也可以加入摄影、时尚、同人、cosplay、女神等上万个兴趣圈子，轻松找到同好，发现生活奇遇。" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link href="img/favicon.ico" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/tendency.css">
+</head>
+
+<body>
+    <!-- 头部导航栏 -->
+    <div class="menu">
+    </div>
+
+
+    <div class="more-box">
+    </div>
+
+    <div class="triangle"></div>
+
+    <!-- 浏览的二级菜单 -->
+    <div class="nav">
+        <ul class="layui-nav nav-bg" lay-filter="demo">
+            <li class="layui-nav-item layui-this"><a href="" class="font-b">趋 势</a></li>
+            <li class="layui-nav-item"><a href="" class="font-b">话 题</a></li>
+            <li class="layui-nav-item"><a href="" class="font-b">标 签</a></li>
+            <li class="layui-nav-item"><a href="" class="font-b">达 人</a></li>
+            <li class="layui-nav-item"><a href="" class="font-b">专 题</a></li>
+            <li class="layui-nav-item"><a href="" class="font-b">风 格 模 板</a></li>
+        </ul>
+    </div>
+
+    <!-- 内容部分 -->
+    <div class="tend">
+    </div>
+
+
+
+    <script src="./js/nav-more.js"></script>
+    <script src="./layui/layui.all.js"></script>
+    <script src="./js/nav-common.js"></script>
+
+    <script>
+        layui.use('element', function () {
+            var element = layui.element;
+
+            //一些事件监听
+            element.on('nav(demo)', function (data) {
+                console.log(data);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+ .nav-bg{
+    background-color: #fff;
+    padding-left: 215px;
+}
+
+.nav-bg li{
+    background-color: #fff;
+    line-height: 90px;
+}
+.layui-nav .layui-nav-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 90px;
+    width: 150px;
+    text-align: center;
+}
+
+.nav-bg li .font-b{
+    display: inline-block;
+    height: 90px;
+    font-size: 20px;
+    color: #000;
+}
+
+.nav-bg li .font-b:hover{
+    color: #000;
+}
+
+.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after {
+    height: 4px;
+    background-color: #9AC600;
+}
